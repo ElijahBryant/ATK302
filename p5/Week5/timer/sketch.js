@@ -8,8 +8,7 @@ function setup() {
 
 function draw() {
   // put drawing code here
-  textSize(100);
-  text (timer, width/2 , height/2);
+  
 
   timer = timer - 1;
   if (timer <= 0) {
